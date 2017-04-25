@@ -476,5 +476,5 @@ typedef void(^SelectedWithTableViewPathRowBlock)(NSString *coldate,NSInteger row
 @end
 
 ```
-![3f0b6671-ec1b-4f04-86e5-c0ac81dde994.gif](http://upload-images.jianshu.io/upload_images/3729815-4c9a97d40aeeba93.gif?imageMogr2/auto-orient/strip)
+
 项目地址git仓库：[Demo](https://github.com/douxindong/XDTuBiaoView.git)
