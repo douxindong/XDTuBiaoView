@@ -1,8 +1,7 @@
-![3f0b6671-ec1b-4f04-86e5-c0ac81dde994.gif](http://upload-images.jianshu.io/upload_images/3729815-4c9a97d40aeeba93.gif?imageMogr2/auto-orient/strip)
 ![QQ20170425-125430@2x.png](http://upload-images.jianshu.io/upload_images/3729815-97585661009609a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/340)
 ![QQ20170425-125440@2x.png](http://upload-images.jianshu.io/upload_images/3729815-12a36eabf4b8f6d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/340)
-
 ![QQ20170425-125504@2x.png](http://upload-images.jianshu.io/upload_images/3729815-3596e140633c8c9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/340)
+
 项目地址git仓库：[Demo](https://github.com/douxindong/XDTuBiaoView.git)
 
 ![QQ20170425-123321.png](http://upload-images.jianshu.io/upload_images/3729815-4c6478442359ef73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/340)
