@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE65F7A41EAE08FD0058A37F /* HEAL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE65F7A31EAE08FD0058A37F /* HEAL.jpg */; };
+		FE65F7A61EAE10DB0058A37F /* appStore.png in Resources */ = {isa = PBXBuildFile; fileRef = FE65F7A51EAE10DB0058A37F /* appStore.png */; };
+		FE65F7A81EAE11200058A37F /* wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = FE65F7A71EAE11200058A37F /* wechat.png */; };
+		FE799C5A1EA7C310000E7109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE799C591EA7C310000E7109 /* main.m */; };
+		FE799C5D1EA7C310000E7109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE799C5C1EA7C310000E7109 /* AppDelegate.m */; };
+		FE799C601EA7C310000E7109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE799C5F1EA7C310000E7109 /* ViewController.m */; };
+		FE799C651EA7C310000E7109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE799C641EA7C310000E7109 /* Assets.xcassets */; };
+		FE799C681EA7C310000E7109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE799C661EA7C310000E7109 /* LaunchScreen.storyboard */; };
+		FE799C741EA7C857000E7109 /* beisaierView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE799C731EA7C857000E7109 /* beisaierView.m */; };
+		FE932F791EA862C700150172 /* 背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE932F781EA862C700150172 /* 背景.jpg */; };
+		FEA4E2AF1EAEE62C00F9D0E2 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E2AE1EAEE62C00F9D0E2 /* OneViewController.m */; };
+		FEA4E2B61EAEE9D800F9D0E2 /* XDBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E2B21EAEE9D800F9D0E2 /* XDBarView.m */; };
+		FEA4E2C01EAEEBE900F9D0E2 /* XDControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E2BF1EAEEBE900F9D0E2 /* XDControl.m */; };
+		FEA4E2C51EAEF7DF00F9D0E2 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA4E2C31EAEF7DF00F9D0E2 /* TableViewCell.m */; };
+		FEA4E2C61EAEF7DF00F9D0E2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA4E2C41EAEF7DF00F9D0E2 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE65F7A31EAE08FD0058A37F /* HEAL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HEAL.jpg; path = "未命名文件夹/HEAL.jpg"; sourceTree = "<group>"; };
+		FE65F7A51EAE10DB0058A37F /* appStore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appStore.png; path = "未命名文件夹/appStore.png"; sourceTree = "<group>"; };
+		FE65F7A71EAE11200058A37F /* wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wechat.png; path = "未命名文件夹/wechat.png"; sourceTree = "<group>"; };
+		FE799C551EA7C310000E7109 /* dxd_贝塞尔.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dxd_贝塞尔.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE799C591EA7C310000E7109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE799C5B1EA7C310000E7109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE799C5C1EA7C310000E7109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE799C5E1EA7C310000E7109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE799C5F1EA7C310000E7109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE799C641EA7C310000E7109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE799C671EA7C310000E7109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE799C691EA7C310000E7109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE799C701EA7C6DE000E7109 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE799C721EA7C857000E7109 /* beisaierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = beisaierView.h; path = ../beisaierView.h; sourceTree = "<group>"; };
+		FE799C731EA7C857000E7109 /* beisaierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = beisaierView.m; path = ../beisaierView.m; sourceTree = "<group>"; };
+		FE932F781EA862C700150172 /* 背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景.jpg"; sourceTree = "<group>"; };
+		FEA4E2AD1EAEE62C00F9D0E2 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		FEA4E2AE1EAEE62C00F9D0E2 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		FEA4E2B11EAEE9D800F9D0E2 /* XDBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDBarView.h; sourceTree = "<group>"; };
+		FEA4E2B21EAEE9D800F9D0E2 /* XDBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDBarView.m; sourceTree = "<group>"; };
+		FEA4E2BD1EAEEB5500F9D0E2 /* HEALHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HEALHeader.pch; sourceTree = "<group>"; };
+		FEA4E2BE1EAEEBE900F9D0E2 /* XDControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDControl.h; sourceTree = "<group>"; };
+		FEA4E2BF1EAEEBE900F9D0E2 /* XDControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDControl.m; sourceTree = "<group>"; };
+		FEA4E2C21EAEF7DF00F9D0E2 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		FEA4E2C31EAEF7DF00F9D0E2 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		FEA4E2C41EAEF7DF00F9D0E2 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE799C521EA7C310000E7109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE65F7A21EAE088B0058A37F /* 贝塞尔view */ = {
+			isa = PBXGroup;
+			children = (
+				FE799C721EA7C857000E7109 /* beisaierView.h */,
+				FE799C731EA7C857000E7109 /* beisaierView.m */,
+			);
+			name = "贝塞尔view";
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		FE799C4C1EA7C310000E7109 = {
+			isa = PBXGroup;
+			children = (
+				FE799C571EA7C310000E7109 /* dxd_贝塞尔 */,
+				FE799C561EA7C310000E7109 /* Products */,
+				FE799C6F1EA7C6DE000E7109 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE799C561EA7C310000E7109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE799C551EA7C310000E7109 /* dxd_贝塞尔.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE799C571EA7C310000E7109 /* dxd_贝塞尔 */ = {
+			isa = PBXGroup;
+			children = (
+				FEA4E2B01EAEE9CF00F9D0E2 /* 柱状图 */,
+				FE65F7A21EAE088B0058A37F /* 贝塞尔view */,
+				FE799C5E1EA7C310000E7109 /* ViewController.h */,
+				FE799C5F1EA7C310000E7109 /* ViewController.m */,
+				FEA4E2AD1EAEE62C00F9D0E2 /* OneViewController.h */,
+				FEA4E2AE1EAEE62C00F9D0E2 /* OneViewController.m */,
+				FEA4E2C11EAEEC3E00F9D0E2 /* 工具类 */,
+				FE799C5B1EA7C310000E7109 /* AppDelegate.h */,
+				FE799C5C1EA7C310000E7109 /* AppDelegate.m */,
+				FE799C641EA7C310000E7109 /* Assets.xcassets */,
+				FE799C661EA7C310000E7109 /* LaunchScreen.storyboard */,
+				FE799C691EA7C310000E7109 /* Info.plist */,
+				FE799C581EA7C310000E7109 /* Supporting Files */,
+			);
+			path = "dxd_贝塞尔";
+			sourceTree = "<group>";
+		};
+		FE799C581EA7C310000E7109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE65F7A31EAE08FD0058A37F /* HEAL.jpg */,
+				FE932F781EA862C700150172 /* 背景.jpg */,
+				FE65F7A51EAE10DB0058A37F /* appStore.png */,
+				FE65F7A71EAE11200058A37F /* wechat.png */,
+				FE799C591EA7C310000E7109 /* main.m */,
+				FEA4E2BD1EAEEB5500F9D0E2 /* HEALHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE799C6F1EA7C6DE000E7109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE799C701EA7C6DE000E7109 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA4E2B01EAEE9CF00F9D0E2 /* 柱状图 */ = {
+			isa = PBXGroup;
+			children = (
+				FEA4E2B11EAEE9D800F9D0E2 /* XDBarView.h */,
+				FEA4E2B21EAEE9D800F9D0E2 /* XDBarView.m */,
+				FEA4E2C21EAEF7DF00F9D0E2 /* TableViewCell.h */,
+				FEA4E2C31EAEF7DF00F9D0E2 /* TableViewCell.m */,
+				FEA4E2C41EAEF7DF00F9D0E2 /* TableViewCell.xib */,
+			);
+			path = "柱状图";
+			sourceTree = "<group>";
+		};
+		FEA4E2C11EAEEC3E00F9D0E2 /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				FEA4E2BE1EAEEBE900F9D0E2 /* XDControl.h */,
+				FEA4E2BF1EAEEBE900F9D0E2 /* XDControl.m */,
+			);
+			name = "工具类";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE799C541EA7C310000E7109 /* dxd_贝塞尔 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE799C6C1EA7C310000E7109 /* Build configuration list for PBXNativeTarget "dxd_贝塞尔" */;
+			buildPhases = (
+				FE799C511EA7C310000E7109 /* Sources */,
+				FE799C521EA7C310000E7109 /* Frameworks */,
+				FE799C531EA7C310000E7109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dxd_贝塞尔";
+			productName = "dxd_贝塞尔";
+			productReference = FE799C551EA7C310000E7109 /* dxd_贝塞尔.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE799C4D1EA7C310000E7109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "窦心东";
+				TargetAttributes = {
+					FE799C541EA7C310000E7109 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE799C501EA7C310000E7109 /* Build configuration list for PBXProject "dxd_贝塞尔" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE799C4C1EA7C310000E7109;
+			productRefGroup = FE799C561EA7C310000E7109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE799C541EA7C310000E7109 /* dxd_贝塞尔 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE799C531EA7C310000E7109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE932F791EA862C700150172 /* 背景.jpg in Resources */,
+				FE799C681EA7C310000E7109 /* LaunchScreen.storyboard in Resources */,
+				FEA4E2C61EAEF7DF00F9D0E2 /* TableViewCell.xib in Resources */,
+				FE65F7A41EAE08FD0058A37F /* HEAL.jpg in Resources */,
+				FE65F7A61EAE10DB0058A37F /* appStore.png in Resources */,
+				FE65F7A81EAE11200058A37F /* wechat.png in Resources */,
+				FE799C651EA7C310000E7109 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE799C511EA7C310000E7109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA4E2B61EAEE9D800F9D0E2 /* XDBarView.m in Sources */,
+				FE799C741EA7C857000E7109 /* beisaierView.m in Sources */,
+				FEA4E2C01EAEEBE900F9D0E2 /* XDControl.m in Sources */,
+				FEA4E2AF1EAEE62C00F9D0E2 /* OneViewController.m in Sources */,
+				FE799C601EA7C310000E7109 /* ViewController.m in Sources */,
+				FEA4E2C51EAEF7DF00F9D0E2 /* TableViewCell.m in Sources */,
+				FE799C5D1EA7C310000E7109 /* AppDelegate.m in Sources */,
+				FE799C5A1EA7C310000E7109 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE799C661EA7C310000E7109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE799C671EA7C310000E7109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE799C6A1EA7C310000E7109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE799C6B1EA7C310000E7109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE799C6D1EA7C310000E7109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/dxd_贝塞尔/HEALHeader.pch";
+				INFOPLIST_FILE = "dxd_贝塞尔/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxd.dxd----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE799C6E1EA7C310000E7109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/dxd_贝塞尔/HEALHeader.pch";
+				INFOPLIST_FILE = "dxd_贝塞尔/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxd.dxd----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE799C501EA7C310000E7109 /* Build configuration list for PBXProject "dxd_贝塞尔" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE799C6A1EA7C310000E7109 /* Debug */,
+				FE799C6B1EA7C310000E7109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE799C6C1EA7C310000E7109 /* Build configuration list for PBXNativeTarget "dxd_贝塞尔" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE799C6D1EA7C310000E7109 /* Debug */,
+				FE799C6E1EA7C310000E7109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE799C4D1EA7C310000E7109 /* Project object */;
+}
